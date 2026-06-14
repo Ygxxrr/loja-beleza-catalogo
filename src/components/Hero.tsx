@@ -9,12 +9,6 @@ export function Hero() {
         </span>
         <h1 className="text-4xl font-bold sm:text-6xl">{storeConfig.name}</h1>
         <p className="max-w-md text-zinc-300">{storeConfig.description}</p>
-        <a
-          href="#catalogo"
-          className="mt-4 rounded-full bg-pink-600 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-pink-500"
-        >
-          Ver produtos
-        </a>
       </div>
     </section>
   );
