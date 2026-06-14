@@ -12,9 +12,24 @@ export function ProductImage({ src, alt }: { src: string; alt: string }) {
         <Image src={src} alt={alt} fill className="object-cover" />
         <button
           onClick={() => setExpanded(true)}
-          className="absolute bottom-3 right-3 rounded-full bg-black/60 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-white backdrop-blur transition-colors hover:bg-pink-600"
+          aria-label="Ampliar imagem"
+          className="absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur transition-colors hover:bg-pink-600"
         >
-          Ampliar imagem
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-5 w-5"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+            <path d="M11 8v6" />
+            <path d="M8 11h6" />
+          </svg>
         </button>
       </div>
 
