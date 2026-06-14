@@ -18,7 +18,7 @@ export default function CarrinhoPage() {
         <p className="text-zinc-500">Adicione produtos do catálogo para continuar.</p>
         <Link
           href="/"
-          className="rounded-full bg-pink-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-pink-700"
+          className="rounded-full bg-black px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-pink-600"
         >
           Ver catálogo
         </Link>
@@ -34,9 +34,9 @@ export default function CarrinhoPage() {
         {items.map((item) => (
           <li
             key={item.product.id}
-            className="flex items-center gap-4 rounded-2xl border border-pink-100 bg-white p-4"
+            className="flex items-center gap-4 rounded-lg border border-zinc-200 bg-white p-4"
           >
-            <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-xl bg-pink-50">
+            <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-lg bg-zinc-50">
               <Image
                 src={item.product.image}
                 alt={item.product.name}
@@ -50,14 +50,14 @@ export default function CarrinhoPage() {
               <div className="mt-2 flex items-center gap-2">
                 <button
                   onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                  className="h-8 w-8 rounded-full border border-pink-200 text-pink-700 hover:bg-pink-50"
+                  className="h-8 w-8 rounded-full border border-zinc-200 text-zinc-700 hover:border-pink-600 hover:text-pink-600"
                 >
                   -
                 </button>
                 <span className="w-8 text-center font-medium">{item.quantity}</span>
                 <button
                   onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                  className="h-8 w-8 rounded-full border border-pink-200 text-pink-700 hover:bg-pink-50"
+                  className="h-8 w-8 rounded-full border border-zinc-200 text-zinc-700 hover:border-pink-600 hover:text-pink-600"
                 >
                   +
                 </button>
@@ -78,7 +78,7 @@ export default function CarrinhoPage() {
         ))}
       </ul>
 
-      <div className="mt-6 flex items-center justify-between rounded-2xl border border-pink-100 bg-white p-4">
+      <div className="mt-6 flex items-center justify-between rounded-lg border border-zinc-200 bg-white p-4">
         <span className="text-lg font-semibold text-zinc-900">Total</span>
         <span className="text-xl font-bold text-pink-600">{formatPrice(totalPrice)}</span>
       </div>
@@ -88,13 +88,13 @@ export default function CarrinhoPage() {
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 rounded-full bg-green-500 px-6 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-green-600"
+          className="flex-1 rounded-full bg-green-500 px-6 py-3 text-center text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-green-600"
         >
           Finalizar pedido pelo WhatsApp
         </a>
         <button
           onClick={clearCart}
-          className="rounded-full border border-pink-200 px-6 py-3 text-sm font-semibold text-pink-700 transition-colors hover:bg-pink-50"
+          className="rounded-full border border-zinc-200 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-700 transition-colors hover:border-pink-600 hover:text-pink-600"
         >
           Limpar carrinho
         </button>

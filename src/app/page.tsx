@@ -1,46 +1,24 @@
-"use client";
-
-import { useMemo, useState } from "react";
 import products from "@/data/products.json";
-import { ProductCard } from "@/components/ProductCard";
-import { CategoryFilter } from "@/components/CategoryFilter";
-import { storeConfig } from "@/config/store";
+import { Hero } from "@/components/Hero";
+import { CategoryNav } from "@/components/CategoryNav";
+import { CategorySection } from "@/components/CategorySection";
 
 export default function Home() {
-  const [selectedCategory, setSelectedCategory] = useState("Todos");
-
-  const categories = useMemo(() => {
-    const unique = Array.from(new Set(products.map((p) => p.category)));
-    return ["Todos", ...unique];
-  }, []);
-
-  const filteredProducts = useMemo(() => {
-    if (selectedCategory === "Todos") return products;
-    return products.filter((p) => p.category === selectedCategory);
-  }, [selectedCategory]);
+  const categories = Array.from(new Set(products.map((p) => p.category)));
 
   return (
-    <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">
-      <section className="mb-8 text-center">
-        <h1 className="text-3xl font-bold text-zinc-900 sm:text-4xl">
-          {storeConfig.name}
-        </h1>
-        <p className="mt-2 text-zinc-500">{storeConfig.description}</p>
-      </section>
-
-      <section className="mb-6">
-        <CategoryFilter
-          categories={categories}
-          selected={selectedCategory}
-          onSelect={setSelectedCategory}
-        />
-      </section>
-
-      <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {filteredProducts.map((product) => (
-          <ProductCard key={product.id} product={product} />
+    <>
+      <Hero />
+      <CategoryNav categories={categories} />
+      <main id="catalogo" className="flex-1 scroll-mt-28">
+        {categories.map((category) => (
+          <CategorySection
+            key={category}
+            category={category}
+            products={products.filter((p) => p.category === category)}
+          />
         ))}
-      </section>
-    </main>
+      </main>
+    </>
   );
 }

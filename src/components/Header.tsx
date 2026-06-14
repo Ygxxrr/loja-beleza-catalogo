@@ -8,14 +8,14 @@ export function Header() {
   const { totalItems } = useCart();
 
   return (
-    <header className="sticky top-0 z-10 border-b border-pink-100 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-20 bg-black text-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-        <Link href="/" className="text-xl font-semibold text-pink-600">
+        <Link href="/" className="text-lg font-bold uppercase tracking-[0.2em]">
           {storeConfig.name}
         </Link>
         <Link
           href="/carrinho"
-          className="relative flex items-center gap-2 rounded-full border border-pink-200 px-4 py-2 text-sm font-medium text-pink-700 transition-colors hover:bg-pink-50"
+          className="relative flex items-center gap-2 rounded-full border border-white/30 px-4 py-2 text-sm font-medium transition-colors hover:border-pink-500 hover:text-pink-500"
         >
           Carrinho
           {totalItems > 0 && (
