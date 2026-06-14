@@ -13,7 +13,7 @@ export function CategorySection({
     <section id={slugify(category)} className="scroll-mt-28 py-10">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mb-4 flex items-baseline justify-between">
-          <h2 className="text-xl font-bold uppercase tracking-wide text-zinc-900 sm:text-2xl">
+          <h2 className="text-xl font-bold uppercase tracking-wide text-pink-600 sm:text-2xl">
             {category}
           </h2>
           <span className="text-sm text-zinc-400">{products.length} produtos</span>

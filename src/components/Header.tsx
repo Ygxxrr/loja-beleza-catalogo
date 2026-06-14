@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
 import { storeConfig } from "@/config/store";
@@ -9,9 +10,18 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-20 bg-black text-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-        <Link href="/" className="text-lg font-bold uppercase tracking-[0.2em]">
-          {storeConfig.name}
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/logo-make.png"
+            alt={storeConfig.name}
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-full object-cover"
+          />
+          <span className="text-lg font-bold uppercase tracking-[0.2em]">
+            {storeConfig.name}
+          </span>
         </Link>
         <Link
           href="/carrinho"
