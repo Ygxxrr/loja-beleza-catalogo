@@ -1,6 +1,5 @@
 import products from "@/data/products.json";
 import { Hero } from "@/components/Hero";
-import { CategoryNav } from "@/components/CategoryNav";
 import { CategorySection } from "@/components/CategorySection";
 
 export default function Home() {
@@ -8,8 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <Hero />
-      <CategoryNav categories={categories} />
+      <Hero categories={categories} />
       <main id="catalogo" className="flex-1 scroll-mt-28">
         {categories.map((category) => (
           <CategorySection
