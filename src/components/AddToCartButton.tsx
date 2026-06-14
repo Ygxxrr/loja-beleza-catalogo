@@ -17,7 +17,7 @@ export function AddToCartButton({ product }: { product: Product }) {
   return (
     <button
       onClick={handleClick}
-      className="rounded-full bg-black px-8 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-pink-600"
+      className="rounded-full bg-pink-600 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-pink-700"
     >
       {added ? "Adicionado!" : "Adicionar ao carrinho"}
     </button>
