@@ -1,15 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import products from "@/data/products.json";
+import { useSearch } from "@/context/SearchContext";
 import { Hero } from "@/components/Hero";
-import { SearchBar } from "@/components/SearchBar";
 import { CategoryNav } from "@/components/CategoryNav";
 import { CategorySection } from "@/components/CategorySection";
 import { ProductCard } from "@/components/ProductCard";
 
 export default function Home() {
-  const [search, setSearch] = useState("");
+  const { search } = useSearch();
   const categories = Array.from(new Set(products.map((p) => p.category)));
 
   const searchResults = useMemo(() => {
@@ -21,7 +21,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <SearchBar value={search} onChange={setSearch} />
 
       {searchResults ? (
         <main className="flex-1 px-4 py-10 sm:px-6">
