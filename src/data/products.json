@@ -5,7 +5,21 @@
     "category": "Skincare",
     "price": 20,
     "image": "/produtos/serum-melu.jpg",
-    "description": "Sérum facial leve e de rápida absorção que hidrata, suaviza e dá sensação refrescante à pele."
+    "description": "Sérum facial leve e de rápida absorção que hidrata, suaviza e dá sensação refrescante à pele.",
+    "details": {
+      "specifications": [
+        "Hidrata e auxilia no cuidado diário da pele",
+        "Textura leve, confortável e de rápida absorção",
+        "Não deixa sensação pegajosa",
+        "Aplicação prática com conta-gotas",
+        "Ideal para todos os tipos de pele",
+        "Marca: Melu by Ruby Rose"
+      ],
+      "items": [
+        "1 Sérum Facial Melu by Ruby Rose"
+      ],
+      "usage": "Aplique algumas gotas sobre a pele limpa e seca, espalhando suavemente até completa absorção."
+    }
   },
   {
     "id": "2",
@@ -13,7 +27,19 @@
     "category": "Maquiagem",
     "price": 25,
     "image": "/produtos/batom-belle-angel.jpg",
-    "description": "Batom com embalagem exclusiva em formato de mini bolsa com glitter, cor elegante e textura macia."
+    "description": "Batom com embalagem exclusiva em formato de mini bolsa com glitter, cor elegante e textura macia.",
+    "details": {
+      "specifications": [
+        "Cor elegante e sofisticada",
+        "Textura macia e confortável, com acabamento uniforme",
+        "Embalagem exclusiva em formato de mini bolsa de luxo com efeito glitter e corrente dourada",
+        "Compacto e fácil de carregar",
+        "Ideal para uso diário, ocasiões especiais ou para presentear"
+      ],
+      "items": [
+        "1 Batom Belle Angel"
+      ]
+    }
   },
   {
     "id": "3",
@@ -21,7 +47,19 @@
     "category": "Acessórios",
     "price": 7,
     "image": "/produtos/presilha-flor-tropical.jpg",
-    "description": "Presilha em formato de flor tropical amarela, ideal para dar charme a qualquer penteado."
+    "description": "Presilha em formato de flor tropical amarela, ideal para dar charme a qualquer penteado.",
+    "details": {
+      "specifications": [
+        "Design em formato de flor tropical",
+        "Cor amarela vibrante com detalhes verdes",
+        "Material resistente e acabamento brilhante",
+        "Leve, confortável e fácil de usar",
+        "Indicação: uso adulto e infantil"
+      ],
+      "items": [
+        "1 Presilha de Cabelo Flor Tropical"
+      ]
+    }
   },
   {
     "id": "4",
@@ -29,7 +67,22 @@
     "category": "Acessórios",
     "price": 16,
     "image": "/produtos/kit-acessorios-rosa.jpg",
-    "description": "Kit com 2 esponjas macias, frasco spray, frasco portátil e presilha em formato de flor."
+    "description": "Kit com 2 esponjas macias, frasco spray, frasco portátil e presilha em formato de flor.",
+    "details": {
+      "specifications": [
+        "Esponjas macias para aplicação uniforme da maquiagem",
+        "Presilha ideal para prender os cabelos durante a maquiagem e o skincare",
+        "Frascos práticos para levar produtos na bolsa ou em viagens",
+        "Design delicado e moderno em tons de rosa",
+        "Indicação: uso pessoal e profissional"
+      ],
+      "items": [
+        "2 Esponjas para maquiagem de alta maciez",
+        "1 Frasco spray reutilizável",
+        "1 Frasco portátil para armazenamento de líquidos",
+        "1 Presilha de cabelo em formato de flor"
+      ]
+    }
   },
   {
     "id": "5",
@@ -37,7 +90,19 @@
     "category": "Skincare",
     "price": 15,
     "image": "/produtos/sabonete-esfoliante-melu.jpg",
-    "description": "Sabonete esfoliante com extrato de calêndula, melissa e sementes de morango para limpeza profunda."
+    "description": "Sabonete esfoliante com extrato de calêndula, melissa e sementes de morango para limpeza profunda.",
+    "details": {
+      "specifications": [
+        "Limpa profundamente a pele e auxilia na remoção de células mortas",
+        "Promove toque suave e macio, ajudando a desobstruir os poros",
+        "Fragrância deliciosa de Tutti Frutti",
+        "Ingredientes especiais: extrato de Calêndula, extrato de Melissa, sementes de Morango e cristais de Quartzo"
+      ],
+      "items": [
+        "1 Sabonete Esfoliante Facial Melu Tutti Frutti"
+      ],
+      "usage": "Aplique uma pequena quantidade sobre a pele úmida, massageando suavemente com movimentos circulares. Enxágue em seguida."
+    }
   },
   {
     "id": "6",
@@ -45,7 +110,19 @@
     "category": "Maquiagem",
     "price": 12,
     "image": "/produtos/gloss-max-love.jpg",
-    "description": "Gloss labial com brilho intenso e textura leve, pode ser usado sozinho ou sobre o batom."
+    "description": "Gloss labial com brilho intenso e textura leve, pode ser usado sozinho ou sobre o batom.",
+    "details": {
+      "specifications": [
+        "Brilho intenso e elegante, com efeito iluminado por partículas de brilho",
+        "Textura leve e confortável, sem sensação pegajosa excessiva",
+        "Pode ser usado sozinho ou sobre o batom",
+        "Ideal para qualquer ocasião"
+      ],
+      "items": [
+        "1 Gloss Labial Max Love Studio"
+      ],
+      "usage": "Aplique diretamente nos lábios com o aplicador. Reaplique sempre que desejar intensificar o brilho."
+    }
   },
   {
     "id": "7",
@@ -53,7 +130,18 @@
     "category": "Skincare",
     "price": 5,
     "image": "/produtos/lip-mask.jpg",
-    "description": "Máscara que hidrata profundamente os lábios, deixando-os macios e prontos para o batom."
+    "description": "Máscara que hidrata profundamente os lábios, deixando-os macios e prontos para o batom.",
+    "details": {
+      "specifications": [
+        "Hidratação intensa dos lábios",
+        "Auxilia no combate ao ressecamento",
+        "Deixa os lábios mais macios e suaves",
+        "Fácil e prática de usar, ideal para incluir na rotina de cuidados"
+      ],
+      "items": [
+        "1 unidade de máscara hidratante para lábios"
+      ]
+    }
   },
   {
     "id": "8",
@@ -61,7 +149,20 @@
     "category": "Maquiagem",
     "price": 15,
     "image": "/produtos/paleta-sobrancelhas-ruby-rose.jpg",
-    "description": "Paleta com 4 tons para preencher falhas e modelar as sobrancelhas com acabamento natural."
+    "description": "Paleta com 4 tons para preencher falhas e modelar as sobrancelhas com acabamento natural.",
+    "details": {
+      "specifications": [
+        "4 cores para diferentes tons de sobrancelha",
+        "Fácil aplicação e ótima pigmentação",
+        "Acabamento natural e uniforme",
+        "Textura suave e fácil de esfumar",
+        "Compacta e prática para levar na bolsa"
+      ],
+      "items": [
+        "1 Paleta de Sombras para Sobrancelhas Ruby Rose com 4 tonalidades"
+      ],
+      "usage": "Com um pincel apropriado, aplique a sombra nas sobrancelhas preenchendo as falhas e definindo o formato desejado."
+    }
   },
   {
     "id": "9",
@@ -69,7 +170,19 @@
     "category": "Higiene Íntima",
     "price": 9,
     "image": "/produtos/sabonete-intimo-uva-acai.jpg",
-    "description": "Sabonete íntimo com Barbatimão e Aroeira, limpeza suave e fragrância de uva e açaí."
+    "description": "Sabonete íntimo com Barbatimão e Aroeira, limpeza suave e fragrância de uva e açaí.",
+    "details": {
+      "specifications": [
+        "Limpeza suave e eficaz, com sensação de frescor prolongada",
+        "Fragrância agradável de Uva & Açaí",
+        "Fórmula com extratos de Barbatimão e Aroeira",
+        "Indicação: uso diário"
+      ],
+      "items": [
+        "1 Sabonete Líquido Íntimo Refrescante Uva & Açaí Rhenuks 200ml"
+      ],
+      "usage": "Aplique uma pequena quantidade na região íntima externa durante o banho, massageando suavemente e enxaguando em seguida."
+    }
   },
   {
     "id": "10",
@@ -77,7 +190,19 @@
     "category": "Skincare",
     "price": 7,
     "image": "/produtos/demaquilante-kyral.jpg",
-    "description": "Demaquilante Oil Free que remove maquiagem e impurezas com sensação de toque seco."
+    "description": "Demaquilante Oil Free que remove maquiagem e impurezas com sensação de toque seco.",
+    "details": {
+      "specifications": [
+        "Fórmula Oil Free (livre de óleo)",
+        "Limpa e perfuma suavemente a pele, com sensação de toque seco",
+        "Indicado para todos os tipos de pele",
+        "Ideal para remoção de maquiagem do dia a dia e limpeza facial rápida"
+      ],
+      "items": [
+        "1 Demaquilante Kyral"
+      ],
+      "usage": "Aplique o produto em um algodão e passe suavemente sobre o rosto até remover completamente a maquiagem e as impurezas."
+    }
   },
   {
     "id": "11",
@@ -85,7 +210,20 @@
     "category": "Maquiagem",
     "price": 20,
     "image": "/produtos/batom-matte-3q.jpg",
-    "description": "Batom matte com cor intensa, ótima cobertura e acabamento aveludado de longa duração."
+    "description": "Batom matte com cor intensa, ótima cobertura e acabamento aveludado de longa duração.",
+    "details": {
+      "specifications": [
+        "Acabamento matte moderno",
+        "Cor intensa e uniforme, com excelente cobertura",
+        "Textura suave e confortável",
+        "Embalagem prática e elegante",
+        "Ideal para o dia a dia e ocasiões especiais"
+      ],
+      "items": [
+        "1 Batom Matte 3Q Beauty"
+      ],
+      "usage": "Aplique diretamente nos lábios até alcançar a intensidade desejada."
+    }
   },
   {
     "id": "12",
@@ -93,7 +231,19 @@
     "category": "Skincare",
     "price": 4,
     "image": "/produtos/mascara-facial-kakaziyan.jpg",
-    "description": "Máscara facial com embalagem divertida que hidrata e revitaliza a pele."
+    "description": "Máscara facial com embalagem divertida que hidrata e revitaliza a pele.",
+    "details": {
+      "specifications": [
+        "Hidrata e nutre a pele, ajudando a mantê-la macia e suave",
+        "Sensação refrescante e confortável",
+        "Fácil de aplicar",
+        "Embalagem delicada e divertida, ideal para momentos de autocuidado"
+      ],
+      "items": [
+        "1 Máscara Facial Hidratante Kakaziyan"
+      ],
+      "usage": "Com o rosto limpo e seco, aplique a máscara sobre a pele, ajustando-a ao formato do rosto. Deixe agir pelo tempo indicado na embalagem e retire. Massageie suavemente o sérum restante até completa absorção."
+    }
   },
   {
     "id": "13",
@@ -101,7 +251,18 @@
     "category": "Skincare",
     "price": 4,
     "image": "/produtos/lip-mask-azul.jpg",
-    "description": "Máscara hidratante para lábios ressecados, deixando-os macios e revitalizados."
+    "description": "Máscara hidratante para lábios ressecados, deixando-os macios e revitalizados.",
+    "details": {
+      "specifications": [
+        "Hidrata profundamente os lábios",
+        "Auxilia na redução do ressecamento causado pelo clima, maquiagem ou sol",
+        "Deixa os lábios macios e revitalizados",
+        "Fácil aplicação e uso prático, ideal para a rotina de skincare"
+      ],
+      "items": [
+        "1 unidade de máscara hidratante para lábios"
+      ]
+    }
   },
   {
     "id": "14",
@@ -109,7 +270,19 @@
     "category": "Maquiagem",
     "price": 12,
     "image": "/produtos/lip-gloss-mel-charm-bee.jpg",
-    "description": "Gloss com embalagem em formato de pote de mel e chaveiro de abelhinha, brilho intenso e efeito espelhado."
+    "description": "Gloss com embalagem em formato de pote de mel e chaveiro de abelhinha, brilho intenso e efeito espelhado.",
+    "details": {
+      "specifications": [
+        "Brilho intenso e efeito espelhado",
+        "Textura confortável e não pegajosa",
+        "Embalagem criativa em formato de pote de mel",
+        "Acompanha chaveiro decorativo de abelhinha",
+        "Marca: Sarah's Beauty"
+      ],
+      "items": [
+        "1 Lip Gloss com chaveiro decorativo"
+      ]
+    }
   },
   {
     "id": "15",
@@ -117,7 +290,20 @@
     "category": "Acessórios",
     "price": 10,
     "image": "/produtos/esponja-mango.jpg",
-    "description": "Esponja com formato ergonômico para aplicação uniforme de base, corretivo e produtos cremosos."
+    "description": "Esponja com formato ergonômico para aplicação uniforme de base, corretivo e produtos cremosos.",
+    "details": {
+      "specifications": [
+        "Aplicação uniforme de base, corretivo e produtos cremosos",
+        "Toque macio e confortável na pele",
+        "Formato ergonômico para maior precisão",
+        "Acabamento natural e profissional",
+        "Fácil de usar e limpar"
+      ],
+      "items": [
+        "1 Esponja de Maquiagem Mango Makeup Puff"
+      ],
+      "usage": "Umedeça a esponja para um acabamento mais natural ou utilize seca para maior cobertura. Aplique o produto com leves batidinhas até obter o resultado desejado."
+    }
   },
   {
     "id": "16",
@@ -125,7 +311,20 @@
     "category": "Corpo e Perfumaria",
     "price": 18,
     "image": "/produtos/hidratante-morango-creme.jpg",
-    "description": "Hidratante corporal cremoso com fragrância de morango, creme e toque de baunilha."
+    "description": "Hidratante corporal cremoso com fragrância de morango, creme e toque de baunilha.",
+    "details": {
+      "specifications": [
+        "Hidratação diária para a pele",
+        "Fragrância doce de morango com creme e suave toque de baunilha",
+        "Textura leve e fácil de espalhar",
+        "Embalagem prática com válvula pump",
+        "Marca: Bio Instinto Cosméticos | Conteúdo: 320g"
+      ],
+      "items": [
+        "1 Hidratante Corporal Mix Glow Girl Morango com Creme 320g"
+      ],
+      "usage": "Aplique sobre a pele limpa e seca, espalhando com movimentos suaves até completa absorção."
+    }
   },
   {
     "id": "17",
@@ -133,7 +332,20 @@
     "category": "Maquiagem",
     "price": 14,
     "image": "/produtos/primer-safira-basic.jpg",
-    "description": "Primer que minimiza poros, suaviza a textura da pele e ajuda a fixar a maquiagem por mais tempo."
+    "description": "Primer que minimiza poros, suaviza a textura da pele e ajuda a fixar a maquiagem por mais tempo.",
+    "details": {
+      "specifications": [
+        "Minimiza a aparência dos poros e suaviza a textura da pele",
+        "Ajuda a fixar a maquiagem por mais tempo",
+        "Toque leve e confortável",
+        "Marca: Safira | Linha: Basic | Conteúdo: 28ml",
+        "Indicação: todos os tipos de pele"
+      ],
+      "items": [
+        "1 Primer Facial Safira Basic 28ml"
+      ],
+      "usage": "Com a pele limpa e hidratada, aplique uma pequena quantidade do produto no rosto, espalhando uniformemente antes da maquiagem."
+    }
   },
   {
     "id": "18",
@@ -141,7 +353,20 @@
     "category": "Skincare",
     "price": 2.5,
     "image": "/produtos/peel-off-redutor-poros.jpg",
-    "description": "Máscara peel off que hidrata, remove impurezas e ajuda a reduzir a aparência dos poros."
+    "description": "Máscara peel off que hidrata, remove impurezas e ajuda a reduzir a aparência dos poros.",
+    "details": {
+      "specifications": [
+        "Auxilia na redução da aparência dos poros",
+        "Promove hidratação e deixa a pele mais suave e revitalizada",
+        "Ajuda a remover impurezas superficiais",
+        "Fácil aplicação e remoção",
+        "Marca: YoYô Maquiamor | Tipo: Máscara Facial Peel Off | Conteúdo: 8g"
+      ],
+      "items": [
+        "1 Máscara Facial Peel Off Redutor de Poros 8g"
+      ],
+      "usage": "Com o rosto limpo e seco, aplique uma camada uniforme da máscara evitando a área dos olhos e lábios. Aguarde a secagem completa e remova delicadamente a película formada. Finalize com seu hidratante facial favorito."
+    }
   },
   {
     "id": "19",
@@ -149,7 +374,19 @@
     "category": "Maquiagem",
     "price": 20,
     "image": "/produtos/iluminador-skin-glow.jpg",
-    "description": "Iluminador líquido com efeito glow para rosto, colo, ombros, pernas e braços."
+    "description": "Iluminador líquido com efeito glow para rosto, colo, ombros, pernas e braços.",
+    "details": {
+      "specifications": [
+        "Efeito glow instantâneo e brilho delicado e sofisticado",
+        "Aplicação prática com borrifador retrô",
+        "Textura leve e confortável",
+        "Ideal para rosto, colo, ombros, pernas e braços"
+      ],
+      "items": [
+        "1 Iluminador Corporal e Facial Hello Mini Skin Glow"
+      ],
+      "usage": "Aplique uma pequena quantidade sobre a pele e espalhe suavemente com as mãos ou pincel até obter o brilho desejado."
+    }
   },
   {
     "id": "20",
@@ -157,7 +394,20 @@
     "category": "Maquiagem",
     "price": 5,
     "image": "/produtos/lapis-olhos-preto.jpg",
-    "description": "Lápis preto de traço macio, ideal para delineados e linha d'água com longa duração."
+    "description": "Lápis preto de traço macio, ideal para delineados e linha d'água com longa duração.",
+    "details": {
+      "specifications": [
+        "Cor preta intensa e traço macio",
+        "Ideal para linha d'água e delineados, com longa duração",
+        "Acabamento uniforme",
+        "Marca: Viva! | Cor: Preto | Textura: Macia",
+        "Indicação: uso diário e profissional"
+      ],
+      "items": [
+        "1 Lápis de Olhos Preto Viva!"
+      ],
+      "usage": "Aplique na linha dos olhos ou na linha d'água para destacar o olhar. Esfume, se desejar, para criar um efeito mais suave e esfumado."
+    }
   },
   {
     "id": "21",
@@ -165,7 +415,20 @@
     "category": "Acessórios",
     "price": 8,
     "image": "/produtos/presilha-garra-preta.jpg",
-    "description": "Presilha garra preta com fixação firme, ideal para coques e penteados práticos."
+    "description": "Presilha garra preta com fixação firme, ideal para coques e penteados práticos.",
+    "details": {
+      "specifications": [
+        "Cor: Preto",
+        "Material resistente e durável",
+        "Fixação firme e confortável",
+        "Design moderno e elegante, ideal para uso diário",
+        "Indicada para cabelos lisos, ondulados ou cacheados"
+      ],
+      "items": [
+        "1 Presilha Garra de Cabelo Preta"
+      ],
+      "usage": "Perfeita para prender os cabelos em coques, rabos de cavalo ou penteados casuais, trazendo praticidade para a rotina sem abrir mão da beleza."
+    }
   },
   {
     "id": "22",
@@ -173,7 +436,19 @@
     "category": "Acessórios",
     "price": 8,
     "image": "/produtos/piranha-rosa-queimado.jpg",
-    "description": "Piranha de cabelo com acabamento fosco em tom rosa queimado, fixação firme e confortável."
+    "description": "Piranha de cabelo com acabamento fosco em tom rosa queimado, fixação firme e confortável.",
+    "details": {
+      "specifications": [
+        "Cor: Rosa Queimado",
+        "Material: plástico resistente",
+        "Acabamento fosco moderno e sofisticado",
+        "Fixação firme e confortável, ideal para todos os tipos de cabelo"
+      ],
+      "items": [
+        "1 Piranha de Cabelo Fosca Rosa Queimado"
+      ],
+      "usage": "Abra a piranha e prenda a quantidade desejada de cabelo para um visual prático e elegante em segundos."
+    }
   },
   {
     "id": "23",
@@ -181,7 +456,20 @@
     "category": "Acessórios",
     "price": 8,
     "image": "/produtos/piranha-azul-fosca.jpg",
-    "description": "Piranha de cabelo grande com acabamento fosco azul, ideal para prender os fios com firmeza."
+    "description": "Piranha de cabelo grande com acabamento fosco azul, ideal para prender os fios com firmeza.",
+    "details": {
+      "specifications": [
+        "Cor: Azul Fosco",
+        "Material resistente e durável",
+        "Acabamento fosco sofisticado",
+        "Tamanho grande, leve e confortável de usar",
+        "Fácil de abrir e fechar, ideal para diversos tipos de cabelo"
+      ],
+      "items": [
+        "1 Piranha de Cabelo Grande Azul Fosca"
+      ],
+      "usage": "Prenda os cabelos da maneira desejada e fixe com a piranha para manter o penteado seguro e organizado ao longo do dia."
+    }
   },
   {
     "id": "24",
@@ -189,7 +477,20 @@
     "category": "Acessórios",
     "price": 8,
     "image": "/produtos/piranha-rosa-fosca.jpg",
-    "description": "Piranha de cabelo grande com acabamento fosco rosa, design moderno e fixação segura."
+    "description": "Piranha de cabelo grande com acabamento fosco rosa, design moderno e fixação segura.",
+    "details": {
+      "specifications": [
+        "Cor: Rosa Fosco",
+        "Material resistente e durável",
+        "Acabamento fosco sofisticado",
+        "Tamanho grande, leve e confortável de usar",
+        "Fácil de abrir e fechar, ideal para diversos tipos de cabelo"
+      ],
+      "items": [
+        "1 Piranha de Cabelo Grande Rosa Fosca"
+      ],
+      "usage": "Prenda os cabelos da maneira desejada e fixe com a piranha para manter o penteado seguro e organizado ao longo do dia."
+    }
   },
   {
     "id": "25",
@@ -197,7 +498,19 @@
     "category": "Acessórios",
     "price": 8,
     "image": "/produtos/presilha-garra-fume.jpg",
-    "description": "Presilha garra com acabamento fumê translúcido, design elegante para penteados práticos."
+    "description": "Presilha garra com acabamento fumê translúcido, design elegante para penteados práticos.",
+    "details": {
+      "specifications": [
+        "Cor: Fumê translúcido",
+        "Material resistente e leve",
+        "Design moderno e elegante",
+        "Fixação segura e confortável, indicada para diversos tipos de cabelo"
+      ],
+      "items": [
+        "1 Presilha Garra de Cabelo Fumê"
+      ],
+      "usage": "Ideal para coques rápidos e elegantes, meio preso e penteados casuais ou sofisticados, no trabalho, estudos ou eventos."
+    }
   },
   {
     "id": "26",
@@ -205,7 +518,22 @@
     "category": "Acessórios",
     "price": 16,
     "image": "/produtos/kit-acessorios-5pecas.jpg",
-    "description": "Kit com 2 esponjas, frasco spray, frasco aplicador portátil e recipiente decorativo em formato de flor."
+    "description": "Kit com 2 esponjas, frasco spray, frasco aplicador portátil e recipiente decorativo em formato de flor.",
+    "details": {
+      "specifications": [
+        "Aplicação uniforme de base, corretivo e outros produtos",
+        "Esponjas macias que proporcionam acabamento natural",
+        "Frascos práticos para levar água micelar, fixador ou perfumes na bolsa",
+        "Ideal para viagens e uso diário, com design moderno e delicado"
+      ],
+      "items": [
+        "2 esponjas para maquiagem de alta maciez",
+        "1 frasco spray reutilizável",
+        "1 frasco aplicador portátil para cosméticos",
+        "1 recipiente decorativo em formato de flor para armazenamento"
+      ],
+      "usage": "Perfeito para organizar seus produtos de beleza e facilitar a aplicação da maquiagem com mais praticidade e eficiência."
+    }
   },
   {
     "id": "27",
@@ -213,7 +541,18 @@
     "category": "Cabelo",
     "price": 10,
     "image": "/produtos/condicionador-baba-bell-uva.jpg",
-    "description": "Condicionador com óleo de coco e extrato de frutas com vitamina C para hidratação e brilho."
+    "description": "Condicionador com óleo de coco e extrato de frutas com vitamina C para hidratação e brilho.",
+    "details": {
+      "specifications": [
+        "Fórmula com óleo de coco e extrato de frutas ricas em vitamina C",
+        "Promove hidratação, nutrição, maciez e brilho intenso",
+        "Auxilia no desembaraço dos cabelos e controla o ressecamento",
+        "Indicado para todos os tipos de cabelo | Conteúdo: 290ml"
+      ],
+      "items": [
+        "1 Condicionador Ba Ba Bell Uva 290ml"
+      ]
+    }
   },
   {
     "id": "28",
@@ -221,7 +560,18 @@
     "category": "Cabelo",
     "price": 10,
     "image": "/produtos/mascara-capilar-baba-bell-uva.jpg",
-    "description": "Máscara capilar para hidratação profunda, nutrição e fortalecimento dos fios."
+    "description": "Máscara capilar para hidratação profunda, nutrição e fortalecimento dos fios.",
+    "details": {
+      "specifications": [
+        "Hidratação profunda, nutrição e fortalecimento dos fios",
+        "Mais maciez e brilho intenso, com ação revitalizante",
+        "Ajuda a reduzir o aspecto ressecado e facilita o penteado",
+        "Indicado para todos os tipos de cabelo | Conteúdo: 250g"
+      ],
+      "items": [
+        "1 Máscara Capilar Ba Ba Bell Uva 250g"
+      ]
+    }
   },
   {
     "id": "29",
@@ -229,7 +579,18 @@
     "category": "Cabelo",
     "price": 10,
     "image": "/produtos/condicionador-fruit-bell-pitaya.jpg",
-    "description": "Condicionador com extrato de pitaya para hidratação, controle de frizz e brilho natural."
+    "description": "Condicionador com extrato de pitaya para hidratação, controle de frizz e brilho natural.",
+    "details": {
+      "specifications": [
+        "Fórmula exclusiva enriquecida com extrato natural de pitaya",
+        "Hidratação intensa, maciez e fortalecimento dos fios",
+        "Controle do frizz, deixando os cabelos alinhados e com brilho natural",
+        "Indicado para todos os tipos de cabelo | Conteúdo: 290ml"
+      ],
+      "items": [
+        "1 Condicionador Fruit Bell Pitaya 290ml"
+      ]
+    }
   },
   {
     "id": "30",
@@ -237,7 +598,18 @@
     "category": "Cabelo",
     "price": 10,
     "image": "/produtos/shampoo-baba-bell-uva.jpg",
-    "description": "Shampoo com óleo de coco e extrato de frutas com vitamina C para limpeza e hidratação."
+    "description": "Shampoo com óleo de coco e extrato de frutas com vitamina C para limpeza e hidratação.",
+    "details": {
+      "specifications": [
+        "Limpeza suave e eficaz, sem ressecar os fios",
+        "Hidratação e nutrição com óleo de coco e extrato de frutas ricas em vitamina C",
+        "Mais resistência, força e brilho natural",
+        "Indicado para todos os tipos de cabelo | Conteúdo: 290ml"
+      ],
+      "items": [
+        "1 Shampoo Ba Ba Bell Uva 290ml"
+      ]
+    }
   },
   {
     "id": "31",
@@ -245,7 +617,18 @@
     "category": "Cabelo",
     "price": 10,
     "image": "/produtos/shampoo-fruit-bell-pitaya.jpg",
-    "description": "Shampoo com extrato de pitaya que limpa, fortalece e hidrata os fios."
+    "description": "Shampoo com extrato de pitaya que limpa, fortalece e hidrata os fios.",
+    "details": {
+      "specifications": [
+        "Fórmula exclusiva enriquecida com extrato natural de pitaya",
+        "Limpeza delicada que ajuda no controle do ressecamento",
+        "Hidratação, maciez e fortalecimento capilar",
+        "Indicado para todos os tipos de cabelo | Conteúdo: 290ml"
+      ],
+      "items": [
+        "1 Shampoo Fruit Bell Pitaya 290ml"
+      ]
+    }
   },
   {
     "id": "32",
@@ -253,7 +636,19 @@
     "category": "Cabelo",
     "price": 10,
     "image": "/produtos/mascara-capilar-fruit-bell-pitaya.jpg",
-    "description": "Máscara capilar com ação antioxidante de pitaya, hidratação intensa e controle de frizz."
+    "description": "Máscara capilar com ação antioxidante de pitaya, hidratação intensa e controle de frizz.",
+    "details": {
+      "specifications": [
+        "Fórmula enriquecida com extrato natural de pitaya e ação antioxidante",
+        "Hidratação intensa dos fios e controle do frizz",
+        "Brilho e maciez prolongados",
+        "Auxilia no fortalecimento capilar | Conteúdo: 250g"
+      ],
+      "items": [
+        "1 Máscara Capilar Fruit Bell Pitaya 250g"
+      ],
+      "usage": "Após lavar os cabelos, aplique a máscara no comprimento e pontas, massageando suavemente. Deixe agir por alguns minutos e enxágue bem."
+    }
   },
   {
     "id": "33",
@@ -261,7 +656,19 @@
     "category": "Maquiagem",
     "price": 5,
     "image": "/produtos/lapis-sobrancelha-pink21.jpg",
-    "description": "Lápis para preencher e definir sobrancelhas com acabamento natural e traço macio."
+    "description": "Lápis para preencher e definir sobrancelhas com acabamento natural e traço macio.",
+    "details": {
+      "specifications": [
+        "Preenche e define as sobrancelhas com acabamento natural e uniforme",
+        "Traço macio e de fácil aplicação",
+        "Ideal para corrigir falhas e destacar o olhar",
+        "Prático para levar na bolsa e usar a qualquer momento"
+      ],
+      "items": [
+        "1 Lápis Delineador para Sobrancelhas Pink 21 Natural Look"
+      ],
+      "usage": "Aplique com leves traços acompanhando o sentido natural dos fios até alcançar o formato e a intensidade desejada."
+    }
   },
   {
     "id": "34",
@@ -269,7 +676,19 @@
     "category": "Skincare",
     "price": 6,
     "image": "/produtos/creme-rosa-mosqueta.jpg",
-    "description": "Creme hidratante com Rosa Mosqueta e Vitamina B3 que nutre e uniformiza o tom da pele."
+    "description": "Creme hidratante com Rosa Mosqueta e Vitamina B3 que nutre e uniformiza o tom da pele.",
+    "details": {
+      "specifications": [
+        "Fórmula com Rosa Mosqueta e Niacinamida (Vitamina B3)",
+        "Hidratação profunda e duradoura",
+        "Auxilia na uniformização do tom da pele e na aparência de manchas",
+        "Contribui para uma pele mais macia e luminosa | Conteúdo: 50g",
+        "Ideal para cuidados diários"
+      ],
+      "items": [
+        "1 Creme Hidratante Rosa Mosqueta + Niacinamida 50g"
+      ]
+    }
   },
   {
     "id": "35",
@@ -277,7 +696,19 @@
     "category": "Acessórios",
     "price": 16,
     "image": "/produtos/kit-esponjas-rosa.jpg",
-    "description": "Kit com esponjas em formatos de gota, coração e flor, além de aplicadores aveludados."
+    "description": "Kit com esponjas em formatos de gota, coração e flor, além de aplicadores aveludados.",
+    "details": {
+      "specifications": [
+        "Kit com diversos formatos de esponjas e aplicadores (gota, coração e outros modelos)",
+        "Ideal para aplicação de base, corretivo, pó e produtos cremosos",
+        "Textura macia e confortável na pele",
+        "Proporciona acabamento mais uniforme e natural",
+        "Design moderno e delicado"
+      ],
+      "items": [
+        "1 Kit de Esponjas e Aplicadores para Maquiagem"
+      ]
+    }
   },
   {
     "id": "36",
@@ -285,7 +716,19 @@
     "category": "Acessórios",
     "price": 16,
     "image": "/produtos/kit-esponjas-variados.jpg",
-    "description": "Kit com esponjas em diversos formatos e aplicadores macios para acabamento uniforme."
+    "description": "Kit com esponjas em diversos formatos e aplicadores macios para acabamento uniforme.",
+    "details": {
+      "specifications": [
+        "Kit com diversos formatos de esponjas e aplicadores",
+        "Ideal para aplicação de base, corretivo, pó e produtos cremosos",
+        "Textura macia e confortável na pele",
+        "Modelos que facilitam a aplicação em diferentes áreas do rosto",
+        "Design moderno e delicado"
+      ],
+      "items": [
+        "1 Kit de Esponjas e Aplicadores para Maquiagem"
+      ]
+    }
   },
   {
     "id": "37",
@@ -293,7 +736,19 @@
     "category": "Maquiagem",
     "price": 12,
     "image": "/produtos/primer-hd-love.jpg",
-    "description": "Primer com efeito HD que prepara a pele e suaviza a aparência de poros e imperfeições."
+    "description": "Primer com efeito HD que prepara a pele e suaviza a aparência de poros e imperfeições.",
+    "details": {
+      "specifications": [
+        "Efeito HD para um acabamento mais uniforme",
+        "Ajuda a suavizar a aparência dos poros e imperfeições",
+        "Textura leve e fácil de espalhar",
+        "Toque macio e aveludado",
+        "Ideal para todos os tipos de maquiagem"
+      ],
+      "items": [
+        "1 Primer Facial HD Love – Max Love"
+      ]
+    }
   },
   {
     "id": "38",
@@ -301,7 +756,18 @@
     "category": "Maquiagem",
     "price": 12,
     "image": "/produtos/primer-3em1-love.jpg",
-    "description": "Primer 3 em 1 que uniformiza a pele e melhora a aplicação da maquiagem."
+    "description": "Primer 3 em 1 que uniformiza a pele e melhora a aplicação da maquiagem.",
+    "details": {
+      "specifications": [
+        "Primer facial com ação 3 em 1",
+        "Auxilia na uniformização da aparência da pele",
+        "Proporciona toque suave e acabamento confortável",
+        "Embalagem prática e moderna, ideal para levar na bolsa"
+      ],
+      "items": [
+        "1 Primer Facial 3 em 1 Love – Max Love"
+      ]
+    }
   },
   {
     "id": "39",
@@ -309,7 +775,20 @@
     "category": "Maquiagem",
     "price": 26,
     "image": "/produtos/kit-maquiagem-coracao.jpg",
-    "description": "Estojo em formato de coração com gloss labial, lip tint e lápis de contorno labial."
+    "description": "Estojo em formato de coração com gloss labial, lip tint e lápis de contorno labial.",
+    "details": {
+      "specifications": [
+        "Design fofo em formato de coração e tons de rosa",
+        "Estojo reutilizável, ideal para presentear ou carregar na bolsa",
+        "Produtos essenciais para diferentes acabamentos nos lábios"
+      ],
+      "items": [
+        "1 Gloss labial com brilho delicado",
+        "1 Lip tint para efeito natural e cor duradoura",
+        "1 Lápis de contorno labial (Lip Line)",
+        "1 Estojo em formato de coração reutilizável"
+      ]
+    }
   },
   {
     "id": "40",
@@ -317,7 +796,19 @@
     "category": "Maquiagem",
     "price": 15,
     "image": "/produtos/gloss-infantil-pompom.jpg",
-    "description": "Gloss labial rosa com brilho suave e chaveiro de pompom, ideal para presentear."
+    "description": "Gloss labial rosa com brilho suave e chaveiro de pompom, ideal para presentear.",
+    "details": {
+      "specifications": [
+        "Cor rosa com efeito brilhante",
+        "Textura suave e confortável nos lábios",
+        "Embalagem prática com aplicador",
+        "Acompanha chaveiro com pompom fofo e detalhe decorativo",
+        "Design delicado e divertido, ótima opção para presentear"
+      ],
+      "items": [
+        "1 Gloss Labial Infantil com chaveiro de pompom rosa"
+      ]
+    }
   },
   {
     "id": "41",
@@ -325,7 +816,20 @@
     "category": "Skincare",
     "price": 2.5,
     "image": "/produtos/peel-off-carvao-ativado.jpg",
-    "description": "Máscara peel off com carvão ativado para limpeza profunda e controle da oleosidade."
+    "description": "Máscara peel off com carvão ativado para limpeza profunda e controle da oleosidade.",
+    "details": {
+      "specifications": [
+        "Limpeza profunda da pele, removendo impurezas e resíduos",
+        "Auxilia no controle da oleosidade e na prevenção da acne",
+        "Deixa a pele com sensação de frescor e maciez",
+        "Marca: YoYô Maquiamor | Ativo Principal: Carvão Ativado | Conteúdo: 8g",
+        "Indicação: peles oleosas e mistas"
+      ],
+      "items": [
+        "1 Máscara Facial Peel Off Carvão Ativado 8g"
+      ],
+      "usage": "Com a pele limpa e seca, aplique uma camada uniforme da máscara evitando olhos, sobrancelhas e lábios. Aguarde a secagem completa e retire cuidadosamente a película formada. Enxágue os resíduos, se necessário."
+    }
   },
   {
     "id": "42",
@@ -333,7 +837,19 @@
     "category": "Maquiagem",
     "price": 15,
     "image": "/produtos/mascara-cilios-like-it.jpg",
-    "description": "Máscara para cílios com tecnologia peel off, alongamento, definição e remoção prática."
+    "description": "Máscara para cílios com tecnologia peel off, alongamento, definição e remoção prática.",
+    "details": {
+      "specifications": [
+        "Alonga e define os cílios, com efeito natural e duradouro",
+        "Aplicação fácil e uniforme",
+        "Remoção prática com tecnologia peel off",
+        "Peso líquido: 14,5g | Marca: Melu by Ruby Rose"
+      ],
+      "items": [
+        "1 Máscara para Cílios Peel Off Like It 14,5g"
+      ],
+      "usage": "Aplique a máscara nos cílios da raiz às pontas utilizando movimentos suaves. Para um efeito mais intenso, aplique camadas adicionais."
+    }
   },
   {
     "id": "43",
@@ -341,7 +857,19 @@
     "category": "Maquiagem",
     "price": 15,
     "image": "/produtos/mascara-cilios-challenge.jpg",
-    "description": "Máscara para cílios com volume e definição, remoção prática com tecnologia peel off."
+    "description": "Máscara para cílios com volume e definição, remoção prática com tecnologia peel off.",
+    "details": {
+      "specifications": [
+        "Proporciona volume e definição aos cílios desde a primeira aplicação",
+        "Aplicação uniforme e confortável, com efeito duradouro",
+        "Remoção prática com tecnologia peel off",
+        "Peso líquido: 14,5g | Marca: Melu by Ruby Rose"
+      ],
+      "items": [
+        "1 Máscara para Cílios Peel Off Challenge 14,5g"
+      ],
+      "usage": "Aplique nos cílios da raiz às pontas com movimentos em zigue-zague para uma cobertura completa. Reaplique para intensificar o efeito desejado."
+    }
   },
   {
     "id": "44",
@@ -349,7 +877,19 @@
     "category": "Maquiagem",
     "price": 15,
     "image": "/produtos/mascara-cilios-selfie.jpg",
-    "description": "Máscara para cílios com efeito marcante e duradouro, fácil remoção peel off."
+    "description": "Máscara para cílios com efeito marcante e duradouro, fácil remoção peel off.",
+    "details": {
+      "specifications": [
+        "Define e realça os cílios, com efeito marcante e duradouro",
+        "Aplicação fácil e uniforme, da raiz às pontas",
+        "Remoção prática com tecnologia peel off",
+        "Marca: Melu by Ruby Rose"
+      ],
+      "items": [
+        "1 Máscara para Cílios Peel Off Selfie"
+      ],
+      "usage": "Aplique a máscara nos cílios da raiz às pontas com movimentos suaves. Repita a aplicação para intensificar o efeito desejado."
+    }
   },
   {
     "id": "45",
@@ -357,7 +897,19 @@
     "category": "Higiene Íntima",
     "price": 9,
     "image": "/produtos/sabonete-intimo-ice21.jpg",
-    "description": "Sabonete íntimo com fragrância de 21 ervas e sensação extra refrescante."
+    "description": "Sabonete íntimo com fragrância de 21 ervas e sensação extra refrescante.",
+    "details": {
+      "specifications": [
+        "Limpeza delicada para a região íntima",
+        "Sensação extra refrescante e prolongada",
+        "Fragrância Herbal Fresh inspirada em 21 ervas",
+        "Indicação: uso diário | Conteúdo: 200ml"
+      ],
+      "items": [
+        "1 Sabonete Líquido Íntimo ICE 21 Ervas Herbal Fresh 200ml"
+      ],
+      "usage": "Aplique uma pequena quantidade na região externa durante o banho, massageie suavemente e enxágue em seguida."
+    }
   },
   {
     "id": "46",
@@ -365,7 +917,20 @@
     "category": "Higiene Íntima",
     "price": 9,
     "image": "/produtos/sabonete-intimo-morango.jpg",
-    "description": "Sabonete íntimo com fragrância de morango, limpeza suave e sensação de bem-estar."
+    "description": "Sabonete íntimo com fragrância de morango, limpeza suave e sensação de bem-estar.",
+    "details": {
+      "specifications": [
+        "Limpeza suave para a região íntima",
+        "Fragrância agradável de Morango Paixão",
+        "Fórmula com ingredientes inspirados no barbatimão e na aroeira",
+        "Sensação refrescante e duradoura | Conteúdo: 200ml",
+        "Marca: Rhenuks Cosméticos"
+      ],
+      "items": [
+        "1 Sabonete Líquido Íntimo Morango Paixão Rhenuks 200ml"
+      ],
+      "usage": "Aplique uma pequena quantidade na região íntima externa durante o banho, massageando suavemente e enxaguando em seguida."
+    }
   },
   {
     "id": "47",
@@ -373,7 +938,19 @@
     "category": "Skincare",
     "price": 20,
     "image": "/produtos/serum-hidratante-melu.jpg",
-    "description": "Sérum de textura leve e rápida absorção que hidrata e revitaliza a pele."
+    "description": "Sérum de textura leve e rápida absorção que hidrata e revitaliza a pele.",
+    "details": {
+      "specifications": [
+        "Hidratação intensa",
+        "Toque leve e confortável, com rápida absorção",
+        "Pele macia e revitalizada",
+        "Ideal para uso diário | Conteúdo: 30ml"
+      ],
+      "items": [
+        "1 Sérum Facial Hidratante Melu by Ruby Rose 30ml"
+      ],
+      "usage": "Aplique algumas gotas sobre a pele limpa e seca, espalhando suavemente até completa absorção. Pode ser usado pela manhã e à noite."
+    }
   },
   {
     "id": "48",
@@ -381,6 +958,21 @@
     "category": "Acessórios",
     "price": 14,
     "image": "/produtos/kit-pinceis-13pecas.jpg",
-    "description": "Kit com 13 pincéis de cerdas macias para rosto e olhos, acompanha estojo organizador."
+    "description": "Kit com 13 pincéis de cerdas macias para rosto e olhos, acompanha estojo organizador.",
+    "details": {
+      "specifications": [
+        "Cerdas macias e confortáveis",
+        "Aplicação precisa e uniforme de produtos em pó, líquidos e cremosos",
+        "Perfeito para uso pessoal ou profissional",
+        "Indicação: para todos os tipos de maquiagem e níveis de experiência"
+      ],
+      "items": [
+        "Pincéis para pó, blush e iluminador",
+        "Pincel para base",
+        "Pincéis para sombra e esfumar",
+        "Pincéis para delinear e preencher sobrancelhas",
+        "1 Estojo organizador"
+      ]
+    }
   }
 ]

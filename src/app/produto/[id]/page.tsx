@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import products from "@/data/products.json";
 import { AddToCartButton } from "@/components/AddToCartButton";
+import { ProductDetails } from "@/components/ProductDetails";
 import { ProductImage } from "@/components/ProductImage";
 import { formatPrice } from "@/lib/format";
 
@@ -44,6 +45,8 @@ export default async function ProdutoPage({
             <div>
               <AddToCartButton product={product} />
             </div>
+
+            {product.details && <ProductDetails details={product.details} />}
           </div>
         </div>
       </div>
