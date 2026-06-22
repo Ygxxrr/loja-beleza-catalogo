@@ -17,12 +17,12 @@ export function Header() {
   const categories = Array.from(new Set(products.map((p) => p.category)));
 
   return (
-    <header className="sticky top-0 z-20 bg-black text-white">
+    <header className="sticky top-0 z-20 bg-white text-zinc-800 border-b border-zinc-100 shadow-sm">
       <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:px-6">
         <button
           onClick={() => setMenuOpen(true)}
           aria-label="Abrir menu"
-          className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-white/30 transition-colors hover:border-pink-500 hover:text-pink-500"
+          className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-zinc-200 transition-colors hover:border-pink-500 hover:text-pink-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export function Header() {
             height={40}
             className="h-10 w-10 rounded-full object-cover"
           />
-          <span className="hidden text-lg font-bold uppercase tracking-[0.2em] sm:inline">
+          <span className="hidden text-lg font-bold uppercase tracking-[0.2em] text-zinc-900 sm:inline">
             {storeConfig.name}
           </span>
         </Link>
@@ -60,7 +60,7 @@ export function Header() {
         <Link
           href="/carrinho"
           aria-label="Carrinho"
-          className="relative flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-white/30 transition-colors hover:border-pink-500 hover:text-pink-500"
+          className="relative flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border border-zinc-200 transition-colors hover:border-pink-500 hover:text-pink-500"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
