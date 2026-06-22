@@ -1,26 +1,11 @@
 import Image from "next/image";
 import { storeConfig } from "@/config/store";
 
-const BANNER_IMAGES = [
-  "/produtos/serum-melu.jpg",
-  "/produtos/batom-belle-angel.jpg",
-  "/produtos/kit-pinceis-13pecas.jpg",
-  "/produtos/paleta-sobrancelhas-ruby-rose.jpg",
-  "/produtos/shampoo-baba-bell-uva.jpg",
-  "/produtos/sabonete-intimo-uva-acai.jpg",
-  "/produtos/piranha-rosa-fosca.jpg",
-  "/produtos/iluminador-skin-glow.jpg",
-];
-
 export function Hero() {
   return (
     <section className="relative isolate overflow-hidden bg-black text-white">
-      <div className="absolute inset-0 grid grid-cols-4 grid-rows-2">
-        {BANNER_IMAGES.map((src) => (
-          <div key={src} className="relative">
-            <Image src={src} alt="" fill className="object-cover" />
-          </div>
-        ))}
+      <div className="absolute inset-0">
+        <Image src="/banner.jpeg" alt="Banner principal" fill className="object-cover" />
       </div>
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/40" />
 
