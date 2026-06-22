@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative w-full" style={{ aspectRatio: "16/5" }}>
-      <Image src="/banner.jpeg" alt="Banner principal" fill className="object-cover" priority />
+    <section className="w-full">
+      <Image src="/banner.jpeg" alt="Banner principal" width={1600} height={853} className="w-full h-auto" priority />
     </section>
   );
 }
