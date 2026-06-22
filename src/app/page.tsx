@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import products from "@/data/products.json";
 import { useSearch } from "@/context/SearchContext";
 import { Hero } from "@/components/Hero";
+import { Welcome } from "@/components/Welcome";
 import { CategoryNav } from "@/components/CategoryNav";
 import { CategorySection } from "@/components/CategorySection";
 import { ProductCard } from "@/components/ProductCard";
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Welcome />
 
       {searchResults ? (
         <main className="flex-1 px-4 py-10 sm:px-6">
