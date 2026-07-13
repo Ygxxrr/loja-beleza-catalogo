@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import products from "@/data/products.json";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { ProductDetails } from "@/components/ProductDetails";
 import { ProductImage } from "@/components/ProductImage";
 import { formatPrice } from "@/lib/format";
+import { getProductById } from "@/lib/products";
 
 export default async function ProdutoPage({
   params,
@@ -12,7 +12,7 @@ export default async function ProdutoPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const product = products.find((p) => p.id === id);
+  const product = await getProductById(id);
 
   if (!product) {
     notFound();
@@ -29,7 +29,7 @@ export default async function ProdutoPage({
         </Link>
 
         <div className="grid gap-8 sm:grid-cols-2">
-          <ProductImage src={product.image} alt={product.name} />
+          <ProductImage src={product.image} alt={product.name} fit={product.imageFit} />
 
           <div className="flex flex-col gap-4">
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-pink-500">

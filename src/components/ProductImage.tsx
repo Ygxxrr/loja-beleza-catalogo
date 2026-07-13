@@ -3,13 +3,13 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export function ProductImage({ src, alt }: { src: string; alt: string }) {
+export function ProductImage({ src, alt, fit = "cover" }: { src: string; alt: string; fit?: "cover" | "contain" }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <>
       <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-zinc-900">
-        <Image src={src} alt={alt} fill className="object-cover" />
+        <Image src={src} alt={alt} fill className={fit === "contain" ? "object-contain" : "object-cover"} />
         <button
           onClick={() => setExpanded(true)}
           aria-label="Ampliar imagem"

@@ -6,6 +6,7 @@ import { SearchProvider } from "@/context/SearchContext";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { storeConfig } from "@/config/store";
+import { getCategories } from "@/lib/products";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,11 +23,13 @@ export const metadata: Metadata = {
   description: storeConfig.description,
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const categories = await getCategories();
+
   return (
     <html
       lang="pt-BR"
@@ -35,7 +38,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-white">
         <CartProvider>
           <SearchProvider>
-            <Header />
+            <Header categories={categories} />
             {children}
             <Footer />
           </SearchProvider>

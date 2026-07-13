@@ -3,18 +3,16 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import products from "@/data/products.json";
 import { useCart } from "@/context/CartContext";
 import { useSearch } from "@/context/SearchContext";
 import { storeConfig } from "@/config/store";
 import { Sidebar } from "@/components/Sidebar";
 import { SearchBar } from "@/components/SearchBar";
 
-export function Header() {
+export function Header({ categories }: { categories: string[] }) {
   const { totalItems } = useCart();
   const { search, setSearch } = useSearch();
   const [menuOpen, setMenuOpen] = useState(false);
-  const categories = Array.from(new Set(products.map((p) => p.category)));
 
   return (
     <header className="sticky top-0 z-20 bg-white text-zinc-800 border-b border-zinc-100 shadow-sm">

@@ -10,6 +10,7 @@ export type Product = {
   category: string;
   price: number;
   image: string;
+  imageFit?: "cover" | "contain";
   description: string;
   details?: ProductDetails;
 };

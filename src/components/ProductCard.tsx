@@ -17,7 +17,7 @@ export function ProductCard({ product }: { product: Product }) {
             src={product.image}
             alt={product.name}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className={`${product.imageFit === "contain" ? "object-contain" : "object-cover"} transition-transform duration-300 group-hover:scale-105`}
           />
         </div>
         <div className="flex flex-1 flex-col gap-1 p-4 pb-0">
