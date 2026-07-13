@@ -22,7 +22,7 @@ export function Sidebar({
       />
 
       <aside
-        className={`fixed left-0 top-0 z-40 h-full w-72 bg-black text-white shadow-xl transition-transform ${
+        className={`fixed left-0 top-0 z-40 flex h-full w-72 flex-col bg-black text-white shadow-xl transition-transform ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -49,6 +49,30 @@ export function Sidebar({
             </Link>
           ))}
         </nav>
+
+        <div className="mt-auto border-t border-white/10 p-4">
+          <Link
+            href="/admin"
+            onClick={onClose}
+            className="flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium uppercase tracking-wide text-zinc-200 transition-colors hover:bg-white/10 hover:text-pink-500"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-4 w-4"
+            >
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+              <path d="M10 17l5-5-5-5" />
+              <path d="M15 12H3" />
+            </svg>
+            Login
+          </Link>
+        </div>
       </aside>
     </>
   );
